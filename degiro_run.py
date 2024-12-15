@@ -1,7 +1,7 @@
 import json
 from degiro_connector.trading.api import API as TradingAPI
 from degiro_connector.trading.models.credentials import build_credentials
-from degiro_connector_wrappers.wrappers import get_transactions, get_products_by_year, get_transactions_skat
+from degiro.dg_wrappers.wrappers import get_products_by_year, get_transactions_skat
 
 credentials = build_credentials(location="config/config.json",)
 trading_api = TradingAPI(credentials=credentials)

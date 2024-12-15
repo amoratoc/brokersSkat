@@ -1,6 +1,4 @@
 import json
-import logging
-import json
 import pandas as pd
 from degiro_connector.trading.models.transaction import HistoryRequest
 from datetime import date
